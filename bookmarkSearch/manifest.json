@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "书签搜索",
+  "version": "1.0",
+  "description": "书签搜索、收藏夹防吃灰",
+  "permissions": ["bookmarks", "tabs","favicon"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "64": "icons/icon-64.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "64": "icons/icon-64.png"
+  }
+}
