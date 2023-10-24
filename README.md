@@ -2,36 +2,24 @@
 
 #### 介绍
 书签搜索(收藏夹搜索)扩展插件，支持edge和谷歌浏览器。
+无需联网，加载的书签图标都是浏览器本地存储的。
 
-#### 软件架构
-软件架构说明
+#### 软件功能
 
+主要功能：搜索
+搜索功能：1.指定域名搜索、2.支持模糊搜索、3.精确搜索（三种方式可任意自由组合使用）
+1.指定域名：选择域名限制搜索范围，可多选，也可只输入域名的名称（例如gitee，不用管.com还是.cn这些）。
+2.模糊搜索：查询出书签名称至少包含一个关键词的书签，多个关键词以|分开，例如：js|JavaScript|获取|提取
+模糊搜索还支持正则表达式（不实用，写正则的时间说不定都能通过记忆加三种自由组合搜索方式搜索出来了）。
+3.精确搜索：查询出书签名称必需包含的一个关键词，最多输入一个。
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+次要功能：树型展开
+默认展示所有目录，只展示一层目录下的书签（点击其它目录会关闭之前展开的目录书签），也可以切换到自由展开模式。
+全部展开：展开所有目录和书签。
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+下载压缩包并解压-浏览器扩展管理-打开开发者模式-加载已解压的文件夹-关闭开发者模式。
 
-#### 参与贡献
+下载地址：https://crud.lanzoue.com/iiJ1w1c3lita
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
